@@ -71,6 +71,11 @@ The application flow upto this point is:
 
 _Route 53 → Cloudfront → Certificate Manager → S3 bucket → API Gateway →Lambda → DynamoDB_
 
+## Week 3 Challenge
 
+I terraformed my Cloud Resume Challenge. 
+Terraform is an Infrastructure-as-Code(IAC) tool which I used to provision the AWS resources used in my website. I used frontend and backend modules to logically group my resources.  
+This was a totally new area for me and I encountered issues running Terraform apply which I fixed by using iamadmin user since using an assumed role was the cause root cause of the problem.  
+I also got errors since I needed to stringify the json response from the lambda function since I used Lambda Proxy integration in the API Gateway.
 
-
+![](.idea/images/Malformedjson.png)
