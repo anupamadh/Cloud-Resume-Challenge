@@ -9,7 +9,7 @@ I used HTML and CSS to build a responsive web page and hosted it in an S3 bucket
 I bought the domain name from Namecheap and used Amazon Certificate Manager to generate an SSL certificate to enable https on my website.
 I setup Amazon Route 53 as the DNS provider and setup the alias records to point to the CloudFront Distribution.
 
-![](.idea/images/Visitorcounter-Page-1.drawio-week2.png)
+![](.idea/images/Terraform-2.drawio.png)
 
 ### Route 53 Settings:
 
